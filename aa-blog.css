@@ -1,0 +1,55 @@
+.aa-date {
+    float:left;
+    width: 50px;
+    font-variant: small-caps;
+}
+
+h2.aa-blog-title a {
+    font-weight: normal!important;
+    font-size: 1.55em;
+}
+
+div.subhead,
+.aa-blog-body {
+    padding-left: 75px!important;
+}
+
+.subhead {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 1em 0;
+}
+
+.aa-blog-body h2,
+.aa-blog-body h3 {
+    font-size: 14px!important;
+}
+
+div.aa-blog {
+    border-bottom: 2px solid #CFCFCF;
+    padding: 0 0 25px 0;
+    margin-bottom: 30px;
+}
+
+.aa-blog-featured {
+    padding: 0em 0;
+    padding-left: 75px!important;
+}
+
+.aa-blog-media {
+    margin-left: 75px!important;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+
+.aa-blog-media img {
+    float:left;
+}
+
+.oa-news-tags {}
+
+.blockquote p {
+    margin-right: 5em;
+    color: #900!important;
+}

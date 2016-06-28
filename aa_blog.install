@@ -1,0 +1,34 @@
+<?php
+/**
+ * @file
+ * aa_blog.install
+ */
+
+/**
+ * Implements hook_install().
+ */
+function aa_blog_install() {
+  aa_blog_install_section_type();
+}
+
+/**
+ * Create the Blog Section taxonomy term.
+ */
+function aa_blog_install_section_type() {
+  $params = array(
+    'description' => 'Allows users to create <em>Blog Posts pages</em> and displays a Blog listing.',
+    'node_options' => array(
+      'aa_blog_page',
+    ),
+    'layout' => 'node:oa_section:blog_section',
+  );
+  oa_core_create_term('section_type', 'Blog Section', $params);
+}
+
+/**
+ * Update the Blog section term.
+ */
+function aa_blog_update_7002() {
+  aa_blog_install_section_type();
+}
+
